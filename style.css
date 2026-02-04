@@ -1,0 +1,43 @@
+body {
+            background-color: #a0e7ff;
+        }
+
+        ul {
+            display: inline;
+            list-style-type: none;
+        }
+
+        button {
+            border: 1px solid #00cccc;
+            border-radius: 10px;
+            background-color: aqua;
+            cursor: pointer;
+            margin: 5px;
+            padding: 5px;
+            transition: 0.3s;
+        }
+
+        button:hover {
+            transform: scale(1.1);
+        }
+
+        li {
+            cursor: pointer;
+            background-color: aquamarine;
+            margin-top: 5px;
+            margin-bottom: 5px;
+            padding: 5px;
+            border-radius: 10px;
+            transition: background-color 0.2s, transform 0.2s;
+        }
+
+        li:hover {
+            cursor: pointer;
+            background-color: aqua;
+            transform: scale(1.01);
+        }
+
+        .done {
+            text-decoration: line-through;
+            opacity: 0.6;
+        }
